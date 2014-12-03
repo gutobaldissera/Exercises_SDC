@@ -1,6 +1,6 @@
 import sys
 import numpy as np
-
+from myfun import *
 
 data=sys.argv[1:] #read the command line input 
 
@@ -14,5 +14,6 @@ print type(arr)
 print len(arr)
 
 
-test_is_odd()
+print is_odd(len(arr))
+
 
