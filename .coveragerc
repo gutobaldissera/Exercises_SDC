@@ -1,0 +1,3 @@
+[run]
+omit = example/__init__.py
+       example/test.py
