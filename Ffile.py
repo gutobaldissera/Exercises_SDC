@@ -1,6 +1,7 @@
 import sys
 import numpy as np
 
+
 data=sys.argv[1:] #read the command line input 
 
 arr=np.array([]) #create a empty array
@@ -13,5 +14,5 @@ print type(arr)
 print len(arr)
 
 
-
+test_is_odd()
 
