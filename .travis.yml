@@ -6,5 +6,6 @@ install:
   - pip install python-coveralls
 script:
   - py.test --cov test.py
+  - py.test --cov anotherone/test.py
 after_success:
   - coveralls
